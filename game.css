@@ -1,0 +1,65 @@
+
+body{
+    background-color: rgb(179, 178, 178);
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    
+}
+
+#heading{
+    color: darkslategrey;
+    
+    
+}
+h1{
+    
+    border-style: solid;
+    
+    padding: 2%;
+    background-color: rgb(214, 213, 212);
+    
+}
+
+
+.buttons{
+    background-color:  rgb(214, 213, 212);
+    color: darkslategray;
+    border-style: none;
+    padding: 20px;
+
+}
+
+button{
+    padding:10px;
+    margin: auto;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    font-size: 20px;
+    border-style: outset;
+    
+
+}
+
+button:hover{
+    background-color:rgb(31, 30, 30);
+    color: whitesmoke;
+}
+
+button:active{
+    transform: translateY(4px);
+    background-color: grey;
+}
+
+.resultbox{
+    background-color: rgb(214, 213, 212);
+    height: 400px;
+    border-style: solid;
+    color: darkslategray;
+    font-size: 20px;
+}
+
+#results{
+    text-align: center;
+}
